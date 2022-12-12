@@ -28,6 +28,21 @@
     border-color: #080808;
 }
 
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: var(--green-theme)!important;
+}
+
+.navbar-nav>.active>a:hover{
+    color: white!important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000!important;
+}
+
+.navbar-nav>li>a:hover{
+    color: var(--green-theme)!important;
+}
 
 .mask{
     margin-top: 70px;
@@ -41,7 +56,7 @@
 .text-white{
     color: white;
     font-family: Questrial;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .text-white h1{
@@ -205,3 +220,38 @@ body {
   #softskill{
     margin-left: 40px;
   }
+
+#About{
+    height: auto;
+}
+
+#Contact{
+    height: auto;
+}
+
+  .about-me p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .contact-me{
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+  }
+
+  .contact-me a{
+    font-size: 40px;
+    color: white;
+    background-color: var(--green-theme);
+    padding: 10px;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+  .contact-me a:hover{
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+ 
