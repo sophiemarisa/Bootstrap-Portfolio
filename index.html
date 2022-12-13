@@ -29,15 +29,24 @@
 
 <body>
 
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid" id="navbar_area">
-      <ul class="nav navbar-nav">
+  <nav class="navbar navbar-default navbar-static-top " id="navbar_area">
+    <div class="container">
+      <div class="navbar-header">
+        <!--<a class="navbar-brand" href="#">WebSiteName</a> -->
+  
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <sapn class="icon-bar"></sapn>
+        </button>
+      </div>
+      <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#Hero">Hero</a></li>
-        <li><a href="#Work">Work</a></li>
-        <li><a href="#Skills">Skills</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="item"><a href="#Hero">Hero</a></li>
+        <li class="item"><a href="#Work">My Work</a></li>
+        <li class="item"><a href="#About">About Me</a></li>
+        <li class="item"><a href="#Contact">Contact Me</a></li>
       </ul>
     </div>
   </nav>
@@ -195,50 +204,61 @@
 </div>
 
 <!-- About Me   -->
-<div id="About">
-  <div class="section-title text-center">
-    <h2>About Me</h2>
+<section>
+  <div id="About">
+    <div class="section-title text-center">
+      <h2>About Me</h2>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 about-me">
+        <p>
+          Hi my name is Sophie. I am learning front end web development including HTML, CSS and JavaScript. I have
+          experience
+          coding in Python as I worked as an intern data scientist for over a year. I have a first in BEng Biomedical
+          Engineering and I am currently working in presales. I am looking forward to learning more about developing
+          websites
+          and expaning my skills in this area.
+        </p>
+      </div>
+    </div>
   </div>
-  <div class="col-xs-12 about-me">
-    <p>
-      Hi my name is Sophie. I am learning front end web development including HTML, CSS and JavaScript. I have
-      experience
-      coding in Python as I worked as an intern data scientist for over a year. I have a first in BEng Biomedical
-      Engineering and I am currently working in presales. I am looking forward to learning more about developing
-      websites
-      and expaning my skills in this area.
-    </p>
-  </div>
-</div>
+</section>
+
 
 <!-- Contact Me   -->
 <div id="Contact">
   <div class="section-title text-center">
     <h2>Contact Me</h2>
   </div>
-  <div class="col-xs-12 col-sm-4 contact-me">
-    <div class="centerBlock">
-      <a href="https://github.com/sophiemarisa">GitHub</a>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 contact-me">
+      <div class="centerBlock">
+        <a class="btn btn-lg" href="https://github.com/sophiemarisa">
+          <span>GitHub</span>
+        </a>
+        
+      </div>
     </div>
-  </div>
-  <div class="col-xs-12 col-sm-4 contact-me">
-    <div class="centerBlock">
-      <a href="https://www.linkedin.com/in/scharlwood/">LinkedIn</a>
+    <div class="col-xs-12 col-sm-4 contact-me">
+      <div class="centerBlock">
+        <a class="btn btn-lg" href="https://www.linkedin.com/in/scharlwood/">
+          <span>LinkedIn</span>
+        </a>
+      </div>
     </div>
-  </div>
-  <div class="col-xs-12 col-sm-4 contact-me">
-    <div class="centerBlock">
-      <a href="mailto:sophiecharlwood@live.co.uk">Email</a>
+    <div class="col-xs-12 col-sm-4 contact-me">
+      <div class="centerBlock">
+        <a class="btn btn-lg" href="mailto:sophiecharlwood@live.co.uk">
+          <span>Email</span>
+        </a>
+      </div>
     </div>
   </div>
 </div>
 
-<!-- Footer   -->
-<div class="footer">
-  <footer>
-    <h3>Made with Bootstrap</h3>
-  </footer>
-</div>
+<footer>
+  <h3>Thanks for viewing my webpage 😎</h3>
+</footer>
 
 
 </body>
